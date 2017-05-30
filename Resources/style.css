@@ -1,0 +1,292 @@
+/*nav {
+  border: 1px solid green;
+}
+
+div {
+  border: 1px solid green;
+}*/
+
+/*header starts*/
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color: #A6B7D1;
+}
+
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav a:hover {
+transition: background-color .1s ease-in;
+}
+
+nav a:hover {
+  background-color: #A6B7D1;
+  color: #FFFFFF;
+  font-weight: bold;
+  background: linear-gradient(#A6B7D1);
+}
+
+/* header ends */
+
+/* content section starts*/
+
+body {
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    display: none
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  }
+}
+
+/* First Column */
+
+
+.column.large {
+    width: 100%;
+    display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.stories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+h2 {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+image {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.lead-story .image-content {
+  background-image: url(file:///C:/Users/Stuar/Documents/Projects/SHRM%20Newsletter/Resources/Images/career_path_cropped.jpg);
+  width: 630px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+  display: flex;
+  overflow: hidden;
+}
+
+.image-content {
+  color: #000000;
+  text-shadow: .02px .02px .02px #000;
+  font-size: 30px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+
+}
+
+.fall-cancelled.image-content {
+  background-image: url(file:///C:/Users/Stuar/Documents/Projects/SHRM%20Newsletter/Resources/Images/unplug.jpeg);
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.pop-culture.image-content {
+  background-image: url(file:///C:/Users/Stuar/Documents/Projects/SHRM%20Newsletter/Resources/Images/workplace.jpg);
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Second Column */
+
+.column.medium {
+  width: 300px;
+}
+
+.cat-ceo.image-content {
+  background-image: url(file:///C:/Users/Stuar/Documents/Projects/SHRM%20Newsletter/Resources/Images/mentor.jpg);
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+/* third column */
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsbites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.item {
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: block;
+  background-color: WhiteSmoke;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+}
+
+.news-bites a:hover {
+transition: background-color .1s linear;
+}
+
+.news-bites a:hover {
+  background-color: #A6B7D1;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: #A6B7D1;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid White;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+footer a {
+  font-size: 1.02rem;
+}
