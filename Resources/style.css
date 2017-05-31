@@ -182,11 +182,11 @@ image {
   overflow: hidden;
 }
 
-.column {
+/*.column {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
-}
+}*/
 
 .pop-culture.image-content {
   background-image: url(file:///C:/Users/Stuar/Documents/Projects/SHRM%20Newsletter/Resources/Images/workplace.jpg);
