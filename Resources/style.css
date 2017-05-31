@@ -145,7 +145,7 @@ image {
 }
 
 .lead-story .image-content {
-  background-image: url(file:///C:/Users/Stuar/Documents/Projects/SHRM%20Newsletter/Resources/Images/career_path_cropped.jpg);
+  background-image: url("Images/career_path_cropped.jpg");
   width: 630px;
   height: 300px;
   background-size: cover;
@@ -169,7 +169,7 @@ image {
 }
 
 .fall-cancelled.image-content {
-  background-image: url(file:///C:/Users/Stuar/Documents/Projects/SHRM%20Newsletter/Resources/Images/unplug.jpeg);
+  background-image: url("Images/unplug.jpeg");
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
@@ -189,7 +189,7 @@ image {
 }*/
 
 .pop-culture.image-content {
-  background-image: url(file:///C:/Users/Stuar/Documents/Projects/SHRM%20Newsletter/Resources/Images/workplace.jpg);
+  background-image: url("Images/workplace.jpg");
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
@@ -209,7 +209,7 @@ image {
 }
 
 .cat-ceo.image-content {
-  background-image: url(file:///C:/Users/Stuar/Documents/Projects/SHRM%20Newsletter/Resources/Images/mentor.jpg);
+  background-image: url("Images/mentor.jpg");
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
