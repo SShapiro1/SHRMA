@@ -14,10 +14,10 @@ header {
   position: fixed;
   z-index: 1;
   width: 100%;
-  height: 80px;
+  height: 5rem;
   border-bottom: 1px solid black;
   font-family: Verdana;
-  font-size: 14px;
+  font-size: .875rem;
   font-weight: bold;
   background-color: white;
 }
@@ -27,13 +27,13 @@ header {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left: 30px;
+  padding-left: 1.875rem;
 }
 
 .logo img {
-  width: 70px;
-  height: 60px;
-  margin-right: 12px;
+  width: 4.375rem;
+  height: 3.75rem;
+  margin-right: .75rem;
 }
 
 .logo span {
@@ -68,7 +68,7 @@ body {
 .content {
   display: flex;
   margin: 0 auto 78px auto;
-  padding-top: 116px;
+  padding-top: 7.25rem;
 }
 
 @media only screen and (max-width: 480px) {
@@ -86,34 +86,41 @@ body {
 }
 
 /* First Column */
-
+@media only screen and (max-width: 480px) {
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .column.large {
     width: 100%;
     display: flex;
+    margin-left: 2rem;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  margin-right: 32px;
+  margin-right: 2rem;
 }
 
 .stories {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 17px;
+  margin-top: 1.06rem;
 }
 
 .story {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 18.75rem;
 }
 
 .stories .text-content {
-  height: 250px;
+  height: 15.625rem;
 }
 
 h2 {
@@ -121,14 +128,14 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
   font-family: Georgia;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: bold;
   font-style: normal;
 }
 
 p {
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 1.06rem;
   color: black;
   display: flex;
   align-items: center;
@@ -137,7 +144,7 @@ p {
 image {
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: white;
   display: flex;
   justify-content: space-around;
@@ -146,12 +153,12 @@ image {
 
 .lead-story .image-content {
   background-image: url("Images/career_path_cropped.jpg");
-  width: 630px;
-  height: 300px;
+  width: 39.375rem;
+  height: 18.75rem;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 0;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: left;
   display: flex;
   overflow: hidden;
@@ -160,7 +167,7 @@ image {
 .image-content {
   color: #000000;
   text-shadow: .02px .02px .02px #000;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
@@ -170,11 +177,11 @@ image {
 
 .fall-cancelled.image-content {
   background-image: url("Images/unplug.jpeg");
-  height: 300px;
-  margin-top: 15px;
+  height: 18.75rem;
+  margin-top: .9375rem;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: white;
   text-align: center;
   background-size: cover;
@@ -190,11 +197,11 @@ image {
 
 .pop-culture.image-content {
   background-image: url("Images/workplace.jpg");
-  height: 300px;
+  height: 18.75rem;
   margin-top: 15px;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: white;
   text-align: center;
   background-size: cover;
@@ -205,16 +212,16 @@ image {
 /* Second Column */
 
 .column.medium {
-  width: 300px;
+  width: 18.75rem;
 }
 
 .cat-ceo.image-content {
   background-image: url("Images/mentor.jpg");
-  height: 300px;
+  height: 18.75rem;
   margin-top: 15px;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: white;
   text-align: center;
   background-size: cover;
@@ -226,20 +233,20 @@ image {
 /* third column */
 
 .column.small {
-  width: 240px;
+  width: 15rem;
   display: flex;
   flex-direction: column;
 }
 
 .newsbites {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   text-align: center;
 }
 
 .item {
   font-family: Verdana;
-  font-size: 12px;
+  font-size: .75rem;
   color: DimGray;
   display: block;
   background-color: WhiteSmoke;
@@ -265,26 +272,26 @@ footer {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 325px;
+  height: 20.31rem;
   background-color: #A6B7D1;
   margin: auto;
   font-family: Verdana;
-  font-size: 12px;
+  font-size: .75rem;
 }
 
 footer .title {
   display: inline-block;
-  padding-right: 25px;
+  padding-right: 1.562rem;
   border-right: 2px solid White;
   font-family: Georgia;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   color: white;
 }
 
 footer nav {
   display: inline-block;
-  padding-left: 25px;
+  padding-left: 1.562rem;
 }
 
 footer a {
